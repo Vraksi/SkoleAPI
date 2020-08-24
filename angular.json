@@ -62,11 +62,12 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "SkoleAPI:build"
+            "browserTarget": "SkoleAPI:build"           
           },
           "configurations": {
             "production": {
-              "browserTarget": "SkoleAPI:build:production"
+              "browserTarget": "SkoleAPI:build:production",
+              "proxyConfig": "angular-proxy.json"
             }
           }
         },
