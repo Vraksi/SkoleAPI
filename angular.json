@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "SkoleAPI"
+    }
+  },
+  "defaultProject": "SkoleAPI",
+  "cli": {
+    "analytics": false
+  }
 }
